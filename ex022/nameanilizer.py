@@ -1,0 +1,6 @@
+name = input("What's your name? ")
+print('Name in upper case: {}'.format(name.upper()))
+print('Name in lowwer case: {}'.format(name.lower()))
+lista = name.split()
+print('O nome completo possui {} letras'.format(len(''.join(lista))))
+print('O seu primeiro nome é {} e possui {} letras'.format(lista[0], len(lista[0])))
