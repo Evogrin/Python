@@ -1,6 +1,0 @@
-name = input("What's your name? ")
-print('Name in upper case: {}'.format(name.upper()))
-print('Name in lowwer case: {}'.format(name.lower()))
-list = name.split()
-print('Full name cointain {} letters'.format(len(''.join(list))))
-print('First name is {} and contain {} letters'.format(list[0], len(list[0])))

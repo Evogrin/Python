@@ -1,6 +1,0 @@
-n = int(input('Type a number between 0 and 9999: '))
-n2 = str(int(10000 + n))
-print('{} thousands.'.format(n2[1]))
-print('{} hundreds. '.format(n2[2]))
-print('{} dozens. '.format(n2[3]))
-print('{} units.'.format(n2[4]))
