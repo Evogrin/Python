@@ -1,0 +1,2 @@
+a = int(input('Digite um número para saber sua tabuada: '))
+print('A tabuada de {} é \n {}x1={} \n {}x2={} \n {}x3={} \n {}x4={} \n {}x5={} \n {}x6={} \n {}x7={} \n {}x8={} \n {}x9={} \n {}x10={}'.format(a,a, a*1,a, a*2,a, a*3,a, a*4,a, a*5,a, a*6,a, a*7,a, a*8,a, a*9,a, a*10))
