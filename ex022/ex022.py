@@ -1,0 +1,6 @@
+nome = input('Qual o seu nome? ')
+print(f'Tudo maiúsculo: {nome.upper()}')
+print(f'Tudo minúsculo: {nome.lower()}')
+lista = nome.split()
+print(f'O nome completo possui {len(" ".join(lista))} letras')
+print(f'O seu primeiro nome é {lista[0]} e possui {len(lista[0])} letras')
